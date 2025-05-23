@@ -1,0 +1,34 @@
+Project Reflection
+
+The Weather Advisor application provided a valuable opportunity to apply various programming concepts, including API integration, natural language processing (NLP), and data visualisation. 
+
+AI Tools Used:
+
+A key part of the development process involved incorporating AI tools, particularly ChatGPT and GitHub Copilot, which contributed significantly to refining both the code and structure of the project. The changes implemented in Version 2 of the Python notebook highlight how AI-assisted development can improve both the performance and clarity of an application.
+
+ChatGPT - Helped with code structure, debugging, and suggesting improvements like using seaborn for better visualizations. It was particularly useful in developing the natural language processing functions and error handling.
+GitHub Copilot - Assisted with code completion and suggesting function implementations, especially for the WeatherHelper class methods.
+
+Prompting Techniques:
+Before asking for code help, I provided context about the weather application's purpose and requirements. Starting with basic functionality requests and gradually refined the code through follow-up prompt. A huge assistance is when encountering bugs, I can share specific error messages and relevant code snippets to get targeted solutions. Feature based prompts around visualization, data parsing and UI gave critques and solutions to error and functionality.
+
+Notebook Journey: 
+Initially, the application could respond to basic weather-related queries, but it had limited functionality and minimal structure. During the development of the second version, I used AI tools to evaluate the code’s effectiveness and suggest improvements. One of the first areas addressed was the NLP component. With AI input, I revised the parse_weather_question() function to handle a wider range of query formats. This involved expanding regular expressions and improving the logic used to extract location and intent from user input. As a result, the application could process more flexible language inputs with greater accuracy.
+
+The visualisation component was also updated in Version 2. AI suggestions led to the use of the Seaborn library to enhance the appearance and readability of the plots. These changes included adjusting colour palettes, axis labels, and titles, which improved the overall clarity of the output. This made the data easier to interpret and aligned with the goal of presenting weather information in a clear and informative way.
+
+In terms of structure, the code was re-organised based on feedback from ChatGPT. Functions were separated logically, and a new class, WeatherHelper, was introduced to centralise weather-related tasks. This modular design made the codebase easier to maintain and test. It also supported the addition of future features without major rewrites. The transition from a single-block script to a structured program reflected a more systematic approach to application development.
+
+The development process demonstrated the value of using AI tools for both code generation and review. These tools were particularly useful for identifying areas of inefficiency, improving syntax, and reinforcing good design practices. The second version of the notebook shows how iterative improvements, guided by AI support, can lead to a more robust and readable application.
+
+Future enhancements could include adding more advanced NLP features, such as named entity recognition, and integrating local data caching to reduce API usage. Overall, the use of AI in this project enabled a more organised and effective development workflow and supported the creation of a well-structured, user-focused application.
+Final Thoughts
+This project was an excellent learning experience in combining various Python libraries and APIs to create a practical application. Working with AI tools helped accelerate development while maintaining code quality. The biggest challenge was balancing feature complexity with usability, and I learned valuable lessons about API integration and user interface design.
+
+The iterative development process, supported by AI tools, allowed me to gradually improve the code while maintaining a clear structure. The experience highlighted the importance of proper error handling and user feedback in weather applications, where data availability and accuracy are crucial.
+
+A few key regrets with debugging and notebook upload to GitHub left with an error. Although a workaround was to view via Google Drive.
+
+Moving forward, I would focus more on testing and validation in similar projects, as weather data can be unpredictable and requires robust error handling. The project also demonstrated the value of modular design in making code maintainable and extensible.
+
+Overall, the combination of AI assistance and careful planning resulted in a somewhat functional weather application that could serve as a foundation for more advanced features in the future.
